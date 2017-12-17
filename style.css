@@ -22,13 +22,6 @@ body {
     grid-template-columns: auto 200px;
 }
 
-main {
-    padding: 50px;
-    color: #2c2e36;
-    width: calc(100vw - 200px - 50px - 50px);
-    overflow-x: hidden;
-}
-
 aside,
 .top-right {
     box-shadow: inset 0 0 10px -6px black;
@@ -105,7 +98,7 @@ header nav ul li a.active {
 aside {
     background-color: #e1e1e1;
     position: sticky;
-    width: 200px;
+    width: 199px;
     height: 100vh;
     top: 0;
     right: 0;
@@ -145,6 +138,13 @@ aside nav ul li:hover a {
 
 
 /* MAIN */
+
+main {
+    padding: 50px;
+    color: #2c2e36;
+    width: calc(100vw - 200px - 50px - 50px);
+    overflow-x: hidden;
+}
 
 .photo-grid-control-bar {
     padding: 0 20px;
