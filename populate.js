@@ -19,6 +19,6 @@ for (var i = 0; i < columns.length; i++) {
     for (var l = 0; l < 3; l++) {
         var img = imgOptions[Math.floor(Math.random() * imgOptions.length)];
         imgOptions.splice(imgOptions.indexOf(img),1);
-        col.innerHTML += '<div class="photo-card"><img src="' + img + '"><div class="img-caption"><h3>My title</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed rutrum quam, vitae egestas arcu. Nunc sollicitudin leo dapibus, posuere ipsum in, dictum purus.</p></div></div>';
+        col.innerHTML += '<a class="photo-card" href="#item"><img src="' + img + '"><div class="img-caption"><h3>My title</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed rutrum quam, vitae egestas arcu. Nunc sollicitudin leo dapibus, posuere ipsum in, dictum purus.</p></div></a>';
     }
 }
