@@ -17,15 +17,8 @@ body {
 
 #wrapper {
     display: grid;
-    grid-template-rows: 200px auto;
-    grid-template-columns: auto 200px;
-}
-
-main {
-    padding: 50px;
-    color: #2c2e36;
-    width: calc(100vw - 200px - 50px - 50px);
-    overflow-x: hidden;
+    grid-template-rows: 200px  calc(100vh - 200px);
+    grid-template-columns:  calc(100vw - 200px) 200px;
 }
 
 aside,
@@ -142,6 +135,14 @@ aside nav ul li:hover a {
 
 
 /* MAIN */
+
+
+main {
+    padding: 50px;
+    color: #2c2e36;
+    /* width: calc(100vw - 200px - 50px - 50px); */
+    overflow-x: hidden;
+}
 
 .photo-grid-control-bar {
     padding: 0 20px;
