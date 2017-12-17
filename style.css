@@ -13,6 +13,7 @@ body {
     margin: 0;
     font-family: "Karla", sans-serif;
     background-color: #f2f2f2;
+    overflow-x: hidden;
 }
 
 #wrapper {
@@ -40,6 +41,7 @@ header {
     background-color: #2c2e36;
     padding-left: 50px;
     color: white;
+    width: calc(100vw - 200px - 50px);
 }
 
 header h1 {
@@ -83,7 +85,7 @@ header nav ul li a.active {
 
 .top-right {
     background-color: #21242a;
-    border-left: 1px solid black;
+    border-left: 1px solid #1b1d22;
     color: white;
     text-align: center;
     display: flex;
